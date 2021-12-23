@@ -1,0 +1,7 @@
+Reference Link to Learn PySpark
+https://sparkbyexamples.com/category/pyspark/
+Pre-req for Azure Course
+ - Go through Introduction to Azure Video
+    https://www.youtube.com/watch?v=IiDIn3Ahg-U
+ - Create two email address on outlook.com
+    https://outlook.live.com/owa/

@@ -1,0 +1,9 @@
+
+spark.conf.set(
+    "fs.azure.account.key.finaleproject5077.dfs.core.windows.net",
+    dbutils.secrets.get(scope="newScope",key="newSecret"))
+
+
+df = spark.read.option('delimiter',',').csv('abfss://data@finaleproject5077.dfs.core.windows..net/dataset/movies.csv')
+df = spark.read.format("csv").option("header","true").load("abfss://data@finaleproject5077.dfs.core.windows.net/solution/")
+df.show()
